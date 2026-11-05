@@ -1,1 +1,1 @@
-# shreenathjiandco
+Reconstruction from publicly accessible pages of shreenathjiandco.com, November 2026. Not an exact duplicate of /backup/ because backup page was inaccessible. Product catalogue PDF linked externally; missing source pages clearly flagged. Open index.html locally. No deployment performed.
