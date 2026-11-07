@@ -6,3 +6,8 @@
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 @media(max-width:380px){.hero-copy h1{font-size:34px;letter-spacing:-2px}.proof{flex-wrap:wrap}.eyebrow{font-size:9px;letter-spacing:1px}.brand{gap:10px}.brand-name{font-size:18px}}
 .quote span,.explore span{display:inline-block;width:13px;height:13px;font-size:0;border-top:1px solid currentColor;border-right:1px solid currentColor;position:relative;vertical-align:middle}.quote span:after,.explore span:after{content:"";position:absolute;width:18px;height:1px;background:currentColor;right:-3px;top:5px;transform:rotate(-45deg)}
+
+/* Keep the complete shared header visible while scrolling. */
+.site-header{position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 1px 0 rgba(16,47,64,.1)}
+html{scroll-padding-top:calc(var(--site-header-height, 180px) + 20px)}
+.product-section{scroll-margin-top:0}
