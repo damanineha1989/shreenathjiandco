@@ -20,3 +20,6 @@ html{scroll-padding-top:calc(var(--site-header-height, 180px) + 20px)}
 
 /* Keep piston profiles nested under their parent category. */
 .category-panel .profile-subnav{margin:0 0 16px 10px;padding-left:16px;border-left:2px solid #b6d4d6}.category-panel .profile-subnav li{border:0}.category-panel .profile-subnav li a{padding:8px 10px;font-size:13px;border-radius:3px}.category-panel .profile-subnav a:hover{background:#e5eff0}.category-panel a[aria-current="page"]{color:#805c2a;font-weight:700}.category-panel .profile-subnav a[aria-current="page"]{background:#e0eded}
+
+/* Profiles are collapsed until opened, or when viewing a profile. */
+.profile-disclosure>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;list-style:none}.profile-disclosure>summary::-webkit-details-marker{display:none}.category-panel .profile-disclosure>summary>a{flex:1}.disclosure-icon{width:9px;height:9px;border-right:2px solid #6b8f96;border-bottom:2px solid #6b8f96;transform:rotate(45deg);margin:0 5px 5px 0}.profile-disclosure[open]>summary .disclosure-icon{transform:rotate(225deg);margin-top:6px}.profile-disclosure>summary:focus-visible{outline:2px solid #99713b;outline-offset:4px}
